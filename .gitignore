@@ -1,0 +1,24 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+# Runtime and customer data
+runtime/
+data/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+# Dependencies and build output
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+target/
+dist/
+build/
+.DS_Store
